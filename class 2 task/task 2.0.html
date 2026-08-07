@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pete's Pizza Delivery</title>
+</head>
+<body>
+     <center>
+        <h1>Pete's Pizza Delivery</h1>
+     </br>
+
+        <h2>Online Order  Form </h2>
+        <form>
+            <table>
+                <tr>
+                    <td><label> *Name:</label></td>
+                    <td><input type="text" name="name" size="20" maxlength="20"  required></td>
+                    <td> &nbsp;&nbsp;&nbsp;</td>
+                    <td><label> *Tel:</label></td>
+                    <td><input type="number" name="tel" size="20" maxlength="20"  required></td>
+                </tr>
+                <tr>
+                    <td><label> *Address:</label></td>
+                    <td><input type="text " name="address" size="20" maxlength="20"  required></td>
+                    <td> &nbsp;&nbsp;&nbsp;</td>
+                    <td><label> *Email:</label></td>
+                    <td><input type="email" name="email" size="20" maxlength="20"  required></td>
+                </tr>
+                <tr>
+                    <td><label> *Town/city:</label></td>
+                    <td><input type="text" name="city" size="20" maxlength="15"  required></td>
+                    <td> &nbsp;&nbsp;&nbsp;</td>
+                    <td><label> *Postcode:</label></td>
+                    <td><input type="number" name="postcode" size="20" maxlength="15"  required></td>
+                </tr>
+            </table>
+        </br>
+        
+                   <p>*required fields </p>
+        </br>
+        </br>
+        <table>
+            <tr>
+                <th>Topping</th>
+                <th>Size</th>
+                <th>Extras</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="radio" name="pizza" value="Margherita">Margherita</br>
+                    <input type="radio" name="pizza" value="Four Seasons">Four Seasons</br>
+                    <input type="radio" name="pizza" value="Meat Feast">Meat Feast</br>
+                </td>
+                <td>
+                    <input type="radio" name="size" value="Small">Small</br>
+                    <input type="radio" name="size" value="Medium">Medium</br>
+                    <input type="radio" name="size" value="Large">Large</br>
+                </td>
+                <td>
+                    <input type="checkbox" name="Extras" value="Mushrooms">Mushrooms</br>
+                    <input type="checkbox" name="Extras" value="Green peppers">Green peppers</br>
+                    <input type="checkbox" name="Extras" value="Anchovies">Anchovies</br>
+                    <input type="checkbox" name="Extras" value="Extra Cheese">Extra Cheese</br>
+                </td>
+            </tr>
+
+        </table>
+        </br>
+        </br>
+        <table>
+        <tr>
+            <td>Preferred Delivery Time:</td>
+            <td> <input type="time"></td>
+         </tr> 
+         <tr>
+            <td> Delivery Instructions:</td>
+            <td> <textarea rows="4" cols="30"> </textarea></td>
+         </tr>
+         </table>
+         </br>
+         <input type="submit" value="submit order" required>
+        </form>
+     </center>
+</body>
+</html>
